@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    padding: 40px;
+    background-color: lightblue;
+
+}
+
+.button-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .button {
+      font-size: 80px;
+      height: 20vh;
+      border: 10px black;
+      border-style: solid;
+      animation-name: ooohhhh;
+      animation-duration: .3s;
+      animation-iteration-count: infinite;
+      
+  }
+
+  @keyframes ooohhhh {
+      0%   {background-color: turquoise;}
+      25%  {background-color: purple;}
+      50%  {background-color: blue;}
+      100% {background-color: red;}
+  }
